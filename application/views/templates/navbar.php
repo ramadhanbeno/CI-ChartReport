@@ -6,9 +6,13 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto" style="font-family: Viga">
-                <a class="nav-item nav-link" style="text-transform: capitalize;" href="#">Data 1<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" style="text-transform:capitalize" href="#">Data 2</a>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Data 1</a>
+                <a class="nav-item nav-link" href="#">Data 2</a>
+                <a class="nav-item nav-link" href="#">Data 3</a>
+
+
             </div>
         </div>
     </div>

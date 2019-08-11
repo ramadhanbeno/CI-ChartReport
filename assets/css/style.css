@@ -1,13 +1,71 @@
-.box .chart{
-    width: 50%;
-    align-items: center;
-}
-
-
 .pagebackground {
     background-color:#D5D8DC;
 }
 
+/* navbar */
+.navbar-brand{
+	font-family: Nanum Gothic;
+    font-size: 25px;
+	color: white;
+}
+
+
+.nav-link {
+	font-family: Nanum Gothic;
+	text-transform: capitalize;
+	margin-right: 15px;
+}
+
+.nav-link:hover::after 
+{
+	content: '';
+	display: block;
+	border-bottom: 3px solid  #149DD5;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+
+}
+
+.navnav {
+	background-color:#149DD5;
+}
+
+/* piechart */
+.card .box .chart{
+    text-align: center;
+    font-family: Nanum Gothic;
+    color: #149DD5;
+    margin: 0 auto;
+    padding-bottom: 14px;
+}
+
+.card .box .chart h3{
+    top: 30%;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    position: absolute;
+}
+
+.card .box h4{
+    top: 83%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.card .box .chart canvas{
+    width: 120px;
+    position: relative;
+    
+}
+
+/* engagement */
 .engagement{
     background-color: #149DD5;
 }
@@ -31,9 +89,7 @@
     color: white;
 }
 
-.division{
-    background-color: white;
-}
+
 .data-background card{
 	background-color: white;
 }

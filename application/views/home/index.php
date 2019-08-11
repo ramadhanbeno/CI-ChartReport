@@ -2,7 +2,7 @@
   <div class="container">
     <!-- engagement -->
     <div class="row pt-3">
-      <div class="col-md-3" style="margin-right:-30px">
+      <div class="col-md-3" style="margin-right:-30px;">
         <div class="card engagement">
           <div class="card-body">
             <h5>engagement</h5>
@@ -11,24 +11,41 @@
           </div>
         </div>
       </div>
-      <div class="col-md ">
+      <div class="col-md">
         <div class="card division">
           <div class="card-body">
             <div class="container">
-              <div class="row justify-content-center">
+              <div class="row">
                 <div class="col-sm">
                   <div class="box">
-                    <div class="chart" data-percent="86"></div>
+                    <div class="chart" data-percent="80">
+                      <h3>90%</h3>
+                      <h4>Category A</h4>
+                    </div>
                   </div>
                 </div>
                 <div class="col-sm">
                   <div class="box">
-                    <div class="chart" data-percent="86"></div>
+                    <div class="chart" data-percent="70">
+                      <h3>70%</h3>
+                      <h4>Category B</h4>
+                    </div>
                   </div>
                 </div>
                 <div class="col-sm">
                   <div class="box">
-                    <div class="chart" data-percent="86"></div>
+                    <div class="chart" data-percent="50">
+                      <h3>50%</h3>
+                      <h4>Category C</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <div class="box">
+                    <div class="chart" data-percent="90">
+                      <h3>90%</h3>
+                      <h4>Category D</h4>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -79,7 +96,7 @@
 <script src="assets/js/jquery.easypiechart.js"></script>
 
 <script>
-  // jQuery
+  // jQuery easypiechart
   $(function() {
     $('.chart').easyPieChart({
       // options here
