@@ -1,0 +1,39 @@
+.box .chart{
+    width: 50%;
+    align-items: center;
+}
+
+
+.pagebackground {
+    background-color:#D5D8DC;
+}
+
+.engagement{
+    background-color: #149DD5;
+}
+.engagement h3 {
+    font-family: Nanum Gothic;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.engagement h5 {
+    font-family: Nanum Gothic;
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.engagement p {
+    font-family: Nanum Gothico;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.division{
+    background-color: white;
+}
+.data-background card{
+	background-color: white;
+}
