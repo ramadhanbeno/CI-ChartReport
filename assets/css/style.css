@@ -3,10 +3,23 @@
 }
 
 /* navbar */
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: 100%;
+
+}
+
 .navbar-brand{
 	font-family: Nanum Gothic;
     font-size: 25px;
-	color: white;
+	color: #149DD5;
 }
 
 
@@ -54,8 +67,8 @@
     left: 0;
     right: 0;
     position: absolute;
-    font-weight: bold;
-    font-size: 17px;
+    font-weight: 900;
+    font-size: 12px;
     text-transform: capitalize;
 }
 

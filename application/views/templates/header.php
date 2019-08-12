@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="<?= base_url(); ?>assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/bootstrap/css/bootstrap.min.css">
 
+    <!-- fontawesome -->
+    <link href="<?= base_url(); ?>assets/css/all.css" rel="stylesheet">
+
     <!-- stylecss -->
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
 
